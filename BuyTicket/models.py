@@ -38,6 +38,7 @@ class BuyTicket(models.Model):
 
     email = models.EmailField(max_length=100, null=False, help_text=_('Please input your email'),
                               error_messages={'error': 'You dont input email'})
+    user = models.ForeignKey('User.User', on_delete=models.CASCADE, related_name='salom')
 
     def __str__(self):
         return self.first_name
