@@ -24,8 +24,6 @@ class User(AbstractUser):
         },
     )
 
-    date_joined = models.DateTimeField(_("date joined"), default=datetime.now)
-
     user_ball = models.BigIntegerField(
         default=0,
         null=True,
