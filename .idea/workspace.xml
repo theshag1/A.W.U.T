@@ -5,17 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c1fad4d-572a-4ce8-abad-3911b054f90e" name="Changes" comment="𝔲𝔭𝔡𝔞𝔱𝔢 𝔞𝔡𝔡">
-      <change afterPath="$PROJECT_DIR$/BuyTicket/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BuyTicket/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuyTicket/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuyTicket/migrations/0002_alter_buyticket_contact_alter_buyticket_gander.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuyTicket/migrations/0003_remove_buyticket_contact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuyTicket/migrations/0004_buyticket_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuyTicket/migrations/0005_buyticket_fly_alter_buyticket_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Discount/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Discount/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Discount/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Discount/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Discount/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Discount/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Discount/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ticket/migrations/0005_alter_ticket_tiket_number_alter_ticket_time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ticket/migrations/0006_alter_ticket_tiket_number_alter_ticket_time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ticket/migrations/0007_alter_ticket_tiket_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ticket/migrations/0008_alter_ticket_tiket_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ticket/migrations/0009_alter_ticket_tiket_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ticket/migrations/0010_alter_ticket_tiket_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ticket/migrations/0011_alter_ticket_tiket_number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c36cc877-649e-4e61-982e-a7609fe54b96.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c36cc877-649e-4e61-982e-a7609fe54b96.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c36cc877-649e-4e61-982e-a7609fe54b96/storage_v2/_src_/database/airwayss.hZ4D2A/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c36cc877-649e-4e61-982e-a7609fe54b96/storage_v2/_src_/database/airwayss.hZ4D2A/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuyTicket/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuyTicket/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuyTicket/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuyTicket/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuyTicket/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuyTicket/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ticket/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ticket/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ticket/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ticket/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -145,7 +170,12 @@
       <workItem from="1686936945070" duration="554000" />
       <workItem from="1686988497859" duration="8297000" />
       <workItem from="1686999723533" duration="1365000" />
-      <workItem from="1687003748298" duration="2041000" />
+      <workItem from="1687003748298" duration="2671000" />
+      <workItem from="1687088294044" duration="89000" />
+      <workItem from="1687088398303" duration="1060000" />
+      <workItem from="1687089482159" duration="1514000" />
+      <workItem from="1687091021483" duration="720000" />
+      <workItem from="1687091771131" duration="1014000" />
     </task>
     <task id="LOCAL-00001" summary="🐊♪ 𝕊ⓣα𝕣𝔱 ❶❻/ʘ６/２ʘ２❸">
       <created>1686936486727</created>
@@ -161,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687001059140</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="𝔲𝔭𝔡𝔞𝔱𝔢 𝔞𝔡𝔡">
+      <created>1687005797355</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687005797355</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +206,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="♪ ⓣα ❶❻/ʘ６/２ʘ２❸" />
+    <MESSAGE value=" " />
     <MESSAGE value=" " />
     <option name="LAST_COMMIT_MESSAGE" value=" " />
   </component>

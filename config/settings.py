@@ -43,9 +43,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'drf_yasg',
+    # local app
     'User',
     'Ticket',
-    'BuyTicket'
+    'BuyTicket',
+    'Discount'
 
 ]
 

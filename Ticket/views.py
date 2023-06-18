@@ -15,6 +15,8 @@ from rest_framework import generics
 class TicketApi(generics.ListAPIView):
     queryset = Ticket.objects.all()
     serializer_class = TicketSerializer
+    filter_backends = (SearchFilter,)
+    search_fields = ('Ticket_to', 'Ticket_from')
 
 
 class TicketDetail(APIView):

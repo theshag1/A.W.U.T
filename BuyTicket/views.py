@@ -5,7 +5,6 @@ from rest_framework.views import APIView
 
 from BuyTicket.models import BuyTicket
 from BuyTicket.serializers import BuyTicketSerializer
-from rest_framework import generics
 
 
 class Buyticket(APIView):

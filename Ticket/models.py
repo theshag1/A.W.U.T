@@ -19,6 +19,10 @@ class Ticket(models.Model):
     date = models.DateField(
         null=False,
     )
+    ticket_price = models.CharField(
+        null=False,
+
+    )
     time = models.TimeField(null=False)
     tiket_number = models.CharField(default=random.randint(100000, 999999), null=False)
     bugges = models.SmallIntegerField(null=False, default=20)

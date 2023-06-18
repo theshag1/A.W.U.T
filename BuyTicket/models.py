@@ -3,6 +3,7 @@ from django.utils.translation import gettext_lazy as _
 from choices import gander
 from validate import Passport_validate
 from rest_framework.exceptions import ValidationError
+from choices import payment_choices
 
 
 # Create your models here.
@@ -38,7 +39,17 @@ class BuyTicket(models.Model):
 
     email = models.EmailField(max_length=100, null=False, help_text=_('Please input your email'),
                               error_messages={'error': 'You dont input email'})
-    user = models.ForeignKey('User.User', on_delete=models.CASCADE, related_name='salom')
+
+    user = models.ForeignKey('User.User', on_delete=models.CASCADE, related_name='user_fly')
+
+    fly = models.ForeignKey('Ticket.Ticket', on_delete=models.CASCADE, related_name='fly_ticket')
+
+    pay_fileds = models.CharField(
+        choices=payment_choices,
+        help_text=_('Please select your payment information '),
+        error_messages={"error": 'You dont select payment information'},
+        null=False
+    )
 
     def __str__(self):
         return self.first_name
