@@ -1,9 +1,8 @@
-from datetime import datetime
 from django.contrib.auth.models import AbstractUser
 from django.contrib.auth.validators import UnicodeUsernameValidator
 from django.db import models
 from django.utils.translation import gettext_lazy as _
-
+from validate import phone_validate
 
 # Create your models here.
 
@@ -24,12 +23,19 @@ class User(AbstractUser):
         },
     )
 
-    user_ball = models.BigIntegerField(
+    user_ball = models.CharField(
         default=0,
-        null=True,
+        null=False,
         help_text=_(
             "You collect ball next you change your ball to someone our  items"
 
         )
 
     )
+    user_phone = models.CharField(
+        max_length=18,
+        validators=[phone_validate],
+        help_text=_('You must be enter phone number')
+    )
+
+

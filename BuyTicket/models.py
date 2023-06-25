@@ -1,9 +1,8 @@
 from django.db import models
 from django.utils.translation import gettext_lazy as _
-from choices import gander
+from functions.choices import gander
 from validate import Passport_validate
-from rest_framework.exceptions import ValidationError
-from choices import payment_choices
+from functions.choices import payment_choices
 
 
 # Create your models here.
@@ -43,6 +42,9 @@ class BuyTicket(models.Model):
     user = models.ForeignKey('User.User', on_delete=models.CASCADE, related_name='user_fly')
 
     fly = models.ForeignKey('Ticket.Ticket', on_delete=models.CASCADE, related_name='fly_ticket')
+    fly_ball = models.CharField(
+        null=False,
+    )
 
     pay_fileds = models.CharField(
         choices=payment_choices,
@@ -51,5 +53,7 @@ class BuyTicket(models.Model):
         null=False
     )
 
-    def __str__(self):
-        return self.first_name
+    @property
+    def user_fly(self):
+        return self.user.user_ball + self.fly_ball
+

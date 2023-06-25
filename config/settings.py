@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'User',
     'Ticket',
     'BuyTicket',
-    'Discount'
+    'Discount',
 
 ]
 

@@ -9,3 +9,5 @@ class Discount(models.Model):
     percentage = models.CharField(max_length=100, null=False)
     old_price = models.CharField(null=False)
     discount_price = models.CharField()
+
+

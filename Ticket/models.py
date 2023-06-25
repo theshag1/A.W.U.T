@@ -1,8 +1,6 @@
 from django.db import models
-from django.utils.translation import gettext_lazy as _
-from choices import tiket_class
+from functions.choices import tiket_class
 import random
-from django.utils import timezone
 
 
 # Create your models here.

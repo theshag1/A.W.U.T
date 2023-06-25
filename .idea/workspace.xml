@@ -5,34 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c1fad4d-572a-4ce8-abad-3911b054f90e" name="Changes" comment="𝔲𝔭𝔡𝔞𝔱𝔢 𝔞𝔡𝔡">
-      <change afterPath="$PROJECT_DIR$/BuyTicket/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BuyTicket/migrations/0002_alter_buyticket_contact_alter_buyticket_gander.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BuyTicket/migrations/0003_remove_buyticket_contact.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BuyTicket/migrations/0004_buyticket_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BuyTicket/migrations/0005_buyticket_fly_alter_buyticket_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Discount/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Discount/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Discount/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Discount/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Discount/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Discount/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Discount/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ticket/migrations/0005_alter_ticket_tiket_number_alter_ticket_time.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ticket/migrations/0006_alter_ticket_tiket_number_alter_ticket_time.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ticket/migrations/0007_alter_ticket_tiket_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ticket/migrations/0008_alter_ticket_tiket_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ticket/migrations/0009_alter_ticket_tiket_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ticket/migrations/0010_alter_ticket_tiket_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ticket/migrations/0011_alter_ticket_tiket_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Discount/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Discount/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/c36cc877-649e-4e61-982e-a7609fe54b96.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c36cc877-649e-4e61-982e-a7609fe54b96.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/c36cc877-649e-4e61-982e-a7609fe54b96/storage_v2/_src_/database/airwayss.hZ4D2A/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c36cc877-649e-4e61-982e-a7609fe54b96/storage_v2/_src_/database/airwayss.hZ4D2A/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuyTicket/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuyTicket/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuyTicket/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuyTicket/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuyTicket/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuyTicket/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuyTicket/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuyTicket/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Discount/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Discount/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Discount/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Discount/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Discount/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Discount/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ticket/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ticket/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ticket/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ticket/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/User/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/User/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/User/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/User/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/choices.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/choices.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validate.py" beforeDir="false" afterPath="$PROJECT_DIR$/validate.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +66,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/islomov_ibrohimjon/A.W.U.T&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -90,7 +88,34 @@
       <force-push-target remote-path="origin" branch="main" />
     </force-push-targets>
   </component>
-  <component name="RunManager" selected="Python.settings">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/functions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.function">
+    <configuration name="function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="A.W.U.T" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functions/function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="A.W.U.T" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,10 +174,12 @@
     </configuration>
     <list>
       <item itemvalue="Django Server.Unnamed" />
+      <item itemvalue="Python.function" />
       <item itemvalue="Python.settings" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.function" />
         <item itemvalue="Python.settings" />
       </list>
     </recent_temporary>
@@ -176,6 +203,22 @@
       <workItem from="1687089482159" duration="1514000" />
       <workItem from="1687091021483" duration="720000" />
       <workItem from="1687091771131" duration="1014000" />
+      <workItem from="1687095294256" duration="45000" />
+      <workItem from="1687244496976" duration="3139000" />
+      <workItem from="1687247669464" duration="146000" />
+      <workItem from="1687418061280" duration="3303000" />
+      <workItem from="1687421684428" duration="1058000" />
+      <workItem from="1687422794508" duration="22000" />
+      <workItem from="1687422836952" duration="190000" />
+      <workItem from="1687423051618" duration="3057000" />
+      <workItem from="1687445402930" duration="10000" />
+      <workItem from="1687445550283" duration="144000" />
+      <workItem from="1687445769747" duration="1717000" />
+      <workItem from="1687447505291" duration="2236000" />
+      <workItem from="1687516238353" duration="1013000" />
+      <workItem from="1687517282062" duration="166000" />
+      <workItem from="1687517528723" duration="2546000" />
+      <workItem from="1687520114788" duration="614000" />
     </task>
     <task id="LOCAL-00001" summary="🐊♪ 𝕊ⓣα𝕣𝔱 ❶❻/ʘ６/２ʘ２❸">
       <created>1686936486727</created>
@@ -198,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687005797355</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="𝔲𝔭𝔡𝔞𝔱𝔢 𝔞𝔡𝔡">
+      <created>1687095303717</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687095303717</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,9 +258,11 @@
     <MESSAGE value="♪ ⓣα ❶❻/ʘ６/２ʘ２❸" />
     <MESSAGE value=" " />
     <MESSAGE value=" " />
+    <MESSAGE value=" " />
     <option name="LAST_COMMIT_MESSAGE" value=" " />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/A_W_U_T$function.coverage" NAME="function Coverage Results" MODIFIED="1687420785187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/functions" />
     <SUITE FILE_PATH="coverage/A_W_U_T$settings.coverage" NAME="settings Coverage Results" MODIFIED="1686933766670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
   </component>
 </project>

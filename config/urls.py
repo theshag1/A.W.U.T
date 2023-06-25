@@ -48,5 +48,6 @@ urlpatterns = [
     path('user/', include('User.urls')),
     path('ticket/', include('Ticket.urls')),
     path('buyticket/', include('BuyTicket.urls')),
+    path('discount/', include('Discount.urls')),
 ]
 urlpatterns += swagger_urls

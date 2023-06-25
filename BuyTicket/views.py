@@ -5,6 +5,7 @@ from rest_framework.views import APIView
 
 from BuyTicket.models import BuyTicket
 from BuyTicket.serializers import BuyTicketSerializer
+from User.models import User
 
 
 class Buyticket(APIView):
@@ -15,7 +16,5 @@ class Buyticket(APIView):
 
     def post(self, request, *args, **kwargs):
         serializer = BuyTicketSerializer(data=request.data)
-        if serializer.is_valid(raise_exception=True):
-            serializer.save()
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
-        return Response(status=status.HTTP_400_BAD_REQUEST)
+        serializer.is_valid(raise_exception=True)
+        return Response(serializer.data, status=status.HTTP_200_OK)
