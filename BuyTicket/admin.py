@@ -14,6 +14,3 @@ class Buyticket(admin.ModelAdmin):
         if not obj.fly_ball:
             obj.fly_ball = obj.fly.ball
             obj.save()
-        if obj.fly.ball:
-            obj.user.user_ball += obj.fly_ball
-            obj.save()

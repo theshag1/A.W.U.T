@@ -53,7 +53,3 @@ class BuyTicket(models.Model):
         null=False
     )
 
-    @property
-    def user_fly(self):
-        return self.user.user_ball + self.fly_ball
-

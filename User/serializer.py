@@ -16,7 +16,21 @@ class Userserializer(serializers.ModelSerializer):
             'user_phone',
             'first_name',
             'last_name',
-            'user_ball',
+            'ball'
+
+        )
+        read_only_fields = ('id',)
+
+
+class UserUpdateSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = (
+            'username',
+            'email',
+            'user_phone',
+            'first_name',
+            'last_name',
 
         )
         read_only_fields = ('id',)
@@ -31,7 +45,8 @@ class RegisterSerializer(serializers.ModelSerializer):
             'username',
             'email',
             'user_phone',
-            'password'
+            'password',
+
         )
         read_only_fields = ('id',)
 
@@ -49,7 +64,6 @@ class RegisterSerializer(serializers.ModelSerializer):
         return user
 
 
-
 class LoginSerializer(serializers.Serializer):
     username = serializers.CharField()
     password = serializers.CharField()
@@ -57,3 +71,9 @@ class LoginSerializer(serializers.Serializer):
 
 class LogoutSerializer(serializers.Serializer):
     ask_logout = serializers.CharField(max_length=3)
+
+
+class UserUpdatePasswordSerializer(serializers.Serializer):
+    username = serializers.CharField()
+    password = serializers.CharField()
+    new_password = serializers.CharField()

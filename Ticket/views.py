@@ -18,6 +18,7 @@ class TicketApi(generics.ListAPIView):
     filter_backends = (SearchFilter,)
     search_fields = ('Ticket_to', 'Ticket_from')
 
+
 class TicketDetail(APIView):
     permission_classes = [IsAuthenticated]
 

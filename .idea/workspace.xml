@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c1fad4d-572a-4ce8-abad-3911b054f90e" name="Changes" comment="𝔲𝔭𝔡𝔞𝔱𝔢 𝔞𝔡𝔡">
-      <change afterPath="$PROJECT_DIR$/Discount/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Discount/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/c36cc877-649e-4e61-982e-a7609fe54b96.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c36cc877-649e-4e61-982e-a7609fe54b96.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/c36cc877-649e-4e61-982e-a7609fe54b96/storage_v2/_src_/database/airwayss.hZ4D2A/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c36cc877-649e-4e61-982e-a7609fe54b96/storage_v2/_src_/database/airwayss.hZ4D2A/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -17,19 +12,13 @@
       <change beforePath="$PROJECT_DIR$/BuyTicket/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuyTicket/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuyTicket/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuyTicket/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuyTicket/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuyTicket/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discount/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Discount/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discount/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Discount/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Discount/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Discount/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ticket/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ticket/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ticket/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ticket/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/User/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/User/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/User/serializer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/User/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/User/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/choices.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/choices.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validate.py" beforeDir="false" afterPath="$PROJECT_DIR$/validate.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +38,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/User/urls.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -67,7 +59,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/islomov_ibrohimjon/A.W.U.T&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/islomov_ibrohimjon/Instagram&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -219,6 +211,21 @@
       <workItem from="1687517282062" duration="166000" />
       <workItem from="1687517528723" duration="2546000" />
       <workItem from="1687520114788" duration="614000" />
+      <workItem from="1687687550761" duration="245000" />
+      <workItem from="1687688082214" duration="1509000" />
+      <workItem from="1687689999023" duration="866000" />
+      <workItem from="1687690913475" duration="82000" />
+      <workItem from="1687691037167" duration="75000" />
+      <workItem from="1687691178940" duration="146000" />
+      <workItem from="1687691340913" duration="205000" />
+      <workItem from="1687691693906" duration="490000" />
+      <workItem from="1687754726492" duration="22000" />
+      <workItem from="1687754788608" duration="157000" />
+      <workItem from="1687755182595" duration="49000" />
+      <workItem from="1687755289037" duration="295000" />
+      <workItem from="1687755647115" duration="669000" />
+      <workItem from="1687756378093" duration="2413000" />
+      <workItem from="1687789099266" duration="2200000" />
     </task>
     <task id="LOCAL-00001" summary="🐊♪ 𝕊ⓣα𝕣𝔱 ❶❻/ʘ６/２ʘ２❸">
       <created>1686936486727</created>
@@ -248,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687095303717</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="𝔲𝔭𝔡𝔞𝔱𝔢 𝔞𝔡𝔡">
+      <created>1687687564613</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687687564613</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +270,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="♪ ⓣα ❶❻/ʘ６/２ʘ２❸" />
+    <MESSAGE value=" " />
     <MESSAGE value=" " />
     <MESSAGE value=" " />
     <MESSAGE value=" " />

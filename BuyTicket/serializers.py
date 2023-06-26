@@ -14,6 +14,5 @@ class BuyTicketSerializer(serializers.ModelSerializer):
             'passport',
             'phone',
             'email',
-            'user'
         )
-        read_only_fields = ('id', 'fly_ball')
+        read_only_fields = ('id', 'fly_ball', 'user')
